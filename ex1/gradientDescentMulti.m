@@ -25,15 +25,11 @@ for iter = 1:num_iters
     theta_one  = theta(2) - (alpha * ((1/m) * sum((h - y) .* a)));
     theta_two  = theta(3) - (alpha * ((1/m) * sum((h - y) .* b)));
     
-    %h = theta(1) + (theta(2)*a) + (theta(3)*b);
-    %theta_zero = theta(1) - (alpha * ((1/m) * sum(h-y)));
-    %theta_one  = theta(2) - (alpha * ((1/m) * sum((h - y) .* a)));
-    %theta_two  = theta(3) - (alpha * ((1/m) * sum((h - y) .* b)));
-    
+   
     theta = [theta_zero;theta_one;theta_two];
 
 
-
+    
 
 
 
