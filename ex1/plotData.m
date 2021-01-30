@@ -5,6 +5,7 @@ function plotData(x, y)
 plot(x,y,'rx','MarkerSize',5);
 ylabel('Profit');
 xlabel('Population');
+hold on;
  % open a new figure window
 
 % ====================== YOUR CODE HERE ======================

@@ -1,6 +1,6 @@
 function submit()
-  addpath('./lib');
-
+  %addpath('./lib');
+  addpath('E:\ML\Stanford\ex1\lib');
   conf.assignmentSlug = 'linear-regression';
   conf.itemName = 'Linear Regression with Multiple Variables';
   conf.partArrays = { ...
